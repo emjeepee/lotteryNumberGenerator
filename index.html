@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+<!-- Comment out --><!-- Comment out --><!-- Comment out -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Euro lottery number generator</title>
+  <script defer src="bundle.js"></script></head>
+
+  <body>
+
+<div class="enclDivClass"> <!-- Overall Container div for everything-->
+
+  <div class="contDiv positionContDivMain"> <!-- Container div for area for main numbers-->
+
+<div class="headlineEnclDiv positionHead"> <!-- Divcontaining the main headline -->
+    <p class="headlineText">Click below to make the 5 main numbers</p>
+</div> <!-- End Div containing the headline -->  
+
+    <!-- The button to click for generating the main 6 numbers, 1-50-->
+    <div class="largeButton1 mainButtPos" id="mainNumbersButt">
+      <p class="largeButton1Text">
+        Main numbers
+      </p>
+    </div>  <!-- End button -->
+
+    <!-- The button to click for generating the main 6 numbers, 1-50-->
+    <div class="largeButton1 mainClearButtPos" id="mainClearNumbersButt">
+      <p class="largeButton1Text">
+        Clear 
+      </p>
+    </div>  <!-- End button -->
+
+      <div class="numbersCont"> <!-- Flex container for the divs for the six main numbers 1-50 -->
+      <div class="numberBox" ><p class="numberBoxText" id="mainNumb1"></p></div>
+      <div class="numberBox" ><p class="numberBoxText" id="mainNumb2"></p></div>
+      <div class="numberBox" ><p class="numberBoxText" id="mainNumb3"></p></div>
+      <div class="numberBox" ><p class="numberBoxText" id="mainNumb4"></p></div>
+      <div class="numberBox" ><p class="numberBoxText" id="mainNumb5"></p></div>
+      
+      </div>  <!-- End flex container for the divs for the six main numbers -->
+
+    </div>  <!-- End container div for area for main numbers-->
+
+
+
+    <div class="contDiv positionContDivLucky"> <!--  container div for area for lucky stars numbers-->
+    
+    <div class="headlineEnclDiv positionHead"> <!-- Divcontaining the lucky headline -->
+    <p class="headlineText">Click below to make the 2 lucky stars </p>
+    </div>    
+
+    <!-- The button to click to generate the 2 lucky stars numbers, 1-12 -->
+    <div class="largeButton1 luckyButtPos" id="luckyStarsButt">
+      <p class="largeButton1Text">
+        Lucky stars
+      </p>
+    </div>  <!-- End button -->
+
+    <!-- The button to click to generate the 2 lucky stars numbers, 1-12 -->
+    <div class="largeButton1 luckyClearButtPos" id="luckyStarsClearButt">
+      <p class="largeButton1Text">
+        Clear
+      </p>
+    </div>  <!-- End button -->
+
+    <div class="numbersCont"> <!-- Flex container for the divs for the 2 lucky stars 1-12 -->
+      <div class="numberBox" ><p class="numberBoxText" id="luckyNumb1"></p></div>
+      <div class="numberBox" ><p class="numberBoxText" id="luckyNumb2"></p></div>
+      </div>  <!-- End flex container for the divs for the 2 lick stars  -->
+
+
+
+
+  </div> <!-- End container div for area for lucky stars numbers-->
+
+  </div>
+
+
+
+  <script type="text/javascript" src="index.js"></script>
+  </body>
+
+  </html>
